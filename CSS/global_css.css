@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: Calibri;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0;
+}
+
+/*-------------------------------------------*/
+
+header{
+    position: fixed;
+    width: 100%;
+    font-size: 25px;
+}
+
+/*-------------------------------------------*/
+.nav{
+    padding: 1em;
+}
+
+.nav p{
+    font-family: Arial;
+    font-size: 16px;
+}
+b::selection{
+    background-color: lightblue;
+    color: white;
+}
+p::selection{
+    background-color: lightblue;
+    color: white;
+}
+
+/*-------------------------------------------*/
+
+/*Menú principal*/
+.menu{
+    padding: 0;
+    background: rgb(2, 1, 44);
+    width: 100%;
+    margin: auto;
+}
+.menu li{
+    /*Pone todos los textos alineados*/
+    display: inline-block;
+    /*Centrar los textos en un bloque*/
+    text-align: center;
+    font-size: 0.8em;
+}
+.menu li a{
+    /*Cambiar la decoración del texto*/
+    text-decoration: none;
+    /*Color de la fuente de la letra*/
+    color: white;
+    /*bordes*/
+    padding: 0.5em;
+    /*Aún no lo sé*/
+    display: block;
+}
+/*Para cuando se tenga el cursor encima de un botón*/
+.menu li:hover{
+    background: lightblue;
+}
+.menu{
+    z-index: 100;
+}
+.buscador{
+    position: absolute;
+    padding: 1px;
+    top: 0;
+    right: 0;
+}
+.buscador input{
+    width: 0em;
+    height: 2em;
+    /*Posición del texto*/
+    padding: 0 10px;
+    /*Tamaño del texto*/
+    font-size: 0.5em;
+    /*Color del texto*/
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+}
+.boton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(2, 0, 27);
+    width: 40px;
+    height: 40px;
+    /*posición de la lupa entre arriba y abajo*/
+    line-height: 40px;
+    /*mantiene la lupa en su lugar (centro)*/
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    /*al pasar por encima el cursor cambia*/
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: lightblue;
+}
+/*tamaño del buscador*/
+.buscador:hover input{
+    width: 16em;
+}
+
+/*al presionar sobre el buscador, se mantiene la barra*/
+.buscador input:focus{
+    width: 16em;
+}
+
+/*-------------------------------------------------------*/
+
+footer{
+    background-color: rgb(2, 1, 44);
+    color: white;
+    text-align: center;
+    padding: 2em 0 2em 0;
+    width: 100%;
+}

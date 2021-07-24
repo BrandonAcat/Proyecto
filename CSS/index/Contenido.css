@@ -1,0 +1,151 @@
+#Parrafo{
+    font-size: 25px;
+}
+
+.Moda{
+    width: 100%;
+    margin-top: 44px;
+}
+
+.titulo{
+    margin-top: -2em;
+    color: white;
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+}
+.text:hover{
+    background-color: darkgray;
+}
+.juegoss{
+    background-color: rgb(0, 0, 0);
+    margin-top: 2em;
+}
+.juegos{
+    display: inline-flex;
+    justify-content: center;
+    font-size: 16px;
+}
+h3{
+    height: 0.5em;
+    margin-left: 0.5em;
+}
+
+p b{
+    font-size: 17px;
+}
+p{
+    margin: 0em;
+}
+
+.Sky_Game{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#Sky{
+    width: 150px;
+}
+
+.Minecraft_Game{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+
+}
+#Minecraft{
+    width: 150px;
+}
+
+.COD_Game{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#COD{
+    width: 150px;
+}
+
+.LoLWR_Game{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#LoLWR{
+    width: 150px;
+}
+
+.Genshin_Game{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#Genshin{
+    width: 150px;
+}
+
+.LoL_Game{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#LoL{
+    width: 150px;
+}
+
+.Pubg_Game{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#Pubg{
+    width: 150px;
+}
+
+.Amongus_Game{
+    margin: 16px;
+    margin-left: 0.5em;
+    width: 150px;
+    padding: 0px;
+}
+#Amongus{
+    width: 150px;
+}
+
+.Flecha{
+    width: 174px;
+    height: 100%;
+    margin-left: -160px;
+}
+
+
+
+
+/*.Asphalt9{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#Asphalt9{
+    width: 150px;
+}
+
+.REV_Game{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#REV_Game{
+    width: 150px;
+}*/

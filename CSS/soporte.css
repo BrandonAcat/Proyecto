@@ -1,0 +1,13 @@
+.Redes{
+    display: flex;
+}
+
+.RedLog{
+    width: 5em;
+    border-radius: 60px;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+}
